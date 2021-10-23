@@ -14,7 +14,7 @@ public class Driver {
 		 * This .get method will map GET requests to the endpoint that is given as the first Param to be handled
 		 * by the handler. There are methods for any of the HTTP methods/verbs. 
 		 */
-		app.get("/hello", (ctx)->{ctx.result("Hello Javalin! It's good to meet you on /hello "
+		app.get("/", (ctx)->{ctx.result("Hello Javalin! It's good to meet you on /hello "
 				+ "with a GET request");});
 		
 		app.get("/html", ctx->ctx.html("<h1>Hello Javalin! This should be HTML</h1>"));
