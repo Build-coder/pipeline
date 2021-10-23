@@ -10,7 +10,7 @@ public class Driver {
 		 * run the start method to listn for HTTP req
 		 * the port number as a param
 		 */
-		Javalin app = Javalin.create().start(8080);
+		Javalin app = Javalin.create().start(8081);
 		
 		
 		/**
